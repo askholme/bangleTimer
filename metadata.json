@@ -1,0 +1,15 @@
+{ "id": "ahBangleIntervalTimer",
+  "name": "Clock with visual timer and hard lockdown of other functions",
+  "shortName":"ahTimer",
+  "version":"0.01",
+  "description": "A clock along with an interval timer for children. App also locks down the watch pretty hard to prevent failure/tingering",
+  "icon": "app.png",
+  "tags": "",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "storage": [
+    {"name":"intervalTimer.app.js","url":"app.js"},
+    {"name":"intervalTimer.img","url":"app-icon.js","evaluate":true},
+    {"name":"intervalTimer.boot.js","url":"boot.js"}
+  ]
+}
